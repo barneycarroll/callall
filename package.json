@@ -1,11 +1,19 @@
 {
   "name": "callall",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Supply an array of functions, return a function which will execute all supllied functions with the same context and argument, returning an array of outputs",
   "main": "callall.js",
   "scripts": {
     "test": "node tests.js"
   },
   "author": "Barney Carroll <barney.carroll@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage" : "https://github.com/barneycarroll/callall/blob/master/README.md",
+  "repository" : {
+    "type" : "git" ,
+    "url"  : "https://github.com/barneycarroll/callall.git"
+  },
+  "bugs": {
+    "url" : "https://github.com/barneycarroll/callall/issues"
+  }
 }
